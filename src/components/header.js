@@ -14,8 +14,11 @@ const Header = ({ siteData }) => {
       </div>
 
       <div className="grid grid-cols-2 gap-2 p-6 col-span-1">
-        <div className="font-normal">
+        <div className="col-span-1 font-base">
           <Link to='/about' state={siteData}> About </Link>
+        </div>
+        <div className="col-span-1 font-base">
+          <Link to='/contact' state={siteData}> Contact </Link>
         </div>
       </div>
     </div>

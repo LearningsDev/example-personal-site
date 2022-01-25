@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
     }
   `)
 
-  console.log(children);
+  // console.log(children);
 
   return (
     <div className='min-h-screen'>
